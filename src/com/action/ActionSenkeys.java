@@ -25,7 +25,7 @@ public class ActionSenkeys {
 		
 		actions.keyDown(Keys.SHIFT).sendKeys(searchBox, "iphone").keyUp(Keys.SHIFT).perform();
 		
-		
+		driver.findElement(By.xpath("//span[text()='Men']")).click();
 		
 		
 	  
